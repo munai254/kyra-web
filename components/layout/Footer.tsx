@@ -3,7 +3,7 @@
 export function Footer(){
   return(
     <footer className="bg-black text-white p-6 text-center">
-      2026 KYRA_CUSTOMS. ALL RIGHTS RESERVED
+      2026 KYRA_IMPORTS. ALL RIGHTS RESERVED
     </footer>
   )
 }

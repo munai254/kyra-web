@@ -8,9 +8,9 @@ export function Brands() {
       </h2>
 
       <div className="flex justify-center gap -10 grayscale">
-        <img src="/brands/toyota.png" className="h -12"/>
-         <img src="/brands/nissan.png" className="h -12"/>
-          <img src="/brands/bmw.png" className="h -12"/>
+        <img src="public\2017 Toyota Land Cruiser 200 Series Sahara.jpg" className="h -12"/>
+         <img src="public\AUDI A5 S line .jpg" className="h -12"/>
+          <img src="public\BMW M5 .jpg" className="h -12"/>
       </div>
     </section>
   )
