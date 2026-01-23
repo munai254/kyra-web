@@ -12,7 +12,7 @@ export function FeaturedVehicles() {
                 FEATURED VEHICLES
       </h2>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-        {vehicles.slice(0,3).map((vehicle) =>{
+        {vehicles.slice(0,6).map((vehicle) =>{
           return (
             <VehicleCard key={vehicle.id}
               vehicle={vehicle} />

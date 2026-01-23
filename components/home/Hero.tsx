@@ -30,7 +30,7 @@ export function Hero() {
           opacity-0 translate-y-6 transition-all duration-1000
           ${animate ? "opacity-100 translate-y-0" : ""}`}
         >
-          Welcome to Kyra Imports
+          Welcome to Kyra Platinum Imports
         </p>
 
         {/* Captivating main heading */}
@@ -56,15 +56,20 @@ export function Hero() {
         </p>
 
         {/* CTA Button */}
-        <button
-          onClick={() => router.push("/vehicles")}
-          className={`mt-10 bg-blue-600 hover:bg-blue-700 px-8 py-4 rounded-md
-          font-semibold text-white text-lg transition-all
-          opacity-0 translate-y-6 duration-1000 delay-600
-          ${animate ? "opacity-100 translate-y-0" : ""}`}
-        >
-         Available Vehicles
-        </button>
+       <button
+      onClick={() => router.push("/vehicles")}
+      className={`mt-10 
+      bg-blue-600 hover:bg-blue-700 
+      px-6 py-3 md:px-8 md:py-4 
+      rounded-md font-semibold text-white 
+      text-base md:text-lg 
+      transition-all 
+      opacity-0 translate-y-6 duration-1000 delay-600 
+      ${animate ? "opacity-100 translate-y-0" : ""}`}
+    >
+      Available Vehicles
+    </button>
+
       </div>
     </section>
   );
