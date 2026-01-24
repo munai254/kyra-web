@@ -51,14 +51,14 @@ export default async function viewDetailsPage({ params }: { params: Promise<{ id
           {/* CTA Buttons */}
           <div className="flex flex-wrap gap-4 mt-6">
             <a
-              href="tel:+254700000000"
+              href="tel:+254724809009"
               className="bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-lg font-semibold transition transform hover:scale-105"
             >
               Call Us
             </a>
 
             <a
-              href="https://wa.me/254700000000"
+              href="https://wa.me/+254724809009"
               target="_blank"
               className="border border-blue-500 text-blue-500 dark:text-blue-400 hover:bg-blue-500 hover:text-white px-6 py-3 rounded-lg font-semibold transition transform hover:scale-105"
             >

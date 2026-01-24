@@ -32,15 +32,15 @@ export default function ContactPage() {
     return (
         <main className="min-h-screen bg-black text-white flex items-center justify-center p-6">
             <div className="w-full max-w-xl bg-zinc-900 p-8 rounded-lg shadow-lg">
-                <h1 className="text-3xl font-bold mb-2">Contact Kyra Imports</h1>
+                <h1 className="text-3xl font-bold mb-2">Contact Kyra Plutinum Imports</h1>
                 <div className="mb-6 text-gray-300 space-y-2">
                     <p>
                         📧 Email:
                         <a
-                            href="mailto:info@kyraimports.com"
+                            href="mailto:kyracustoms.info@gmail.com"
                             className="text-blue-400 hover:underline ml-2"
                         >
-                            info@kyraimports.com
+                            kyracustoms.info@gmail.com
                         </a>
                     </p>
 
