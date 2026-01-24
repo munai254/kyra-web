@@ -134,7 +134,7 @@ export const vehicles: Vehicle[] = [
     ],
   },
 
-  {
+ /*
     id: "mercedes-s500-2022",
     name: "Mercedes S500 - 2022",
     brand: "Mercedes",
@@ -154,7 +154,7 @@ export const vehicles: Vehicle[] = [
       "Advanced Driver Assistance",
       "Executive Rear Seating",
     ],
-  },
+  },*/
   {
   id: "bently-dynamic-ride",
   name: "Bentley Bentayga Dynamic Ride",
