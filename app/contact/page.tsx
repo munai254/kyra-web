@@ -53,7 +53,7 @@ export default function ContactPage() {
                         referrerPolicy="no-referrer-when-downgrade">
                     </iframe>
 
-                    <p>📍 Location: Nairobi, Kenya</p>
+                    <p>📍 Location: Spring Valley, Westlands-Nairobi, Kenya</p>
                 </div>
                 <p className="text-gray-400 mb-6">
                     Have a question or want to import a vehicle? Reach out to us.
