@@ -13,9 +13,9 @@ export default function Navbar() {
 
         {/* LOGO */}
        
-        <div className="relative h-14 w-14 md:h-16 md:w-16 overflow-hidden rounded-full transition-transform duration-300 hover:scale-400">
+        <div className="relative items-ce bg-white-500 h-15 w-15 md:h-12 md:w-12 overflow-hidden rounded-full transition-transform duration-300 hover:scale-200">
         <Image
-          src="/logo.png"
+          src="/kyra-imports-logo.svg"
           alt="Kyra Motors Logo"
           fill
           priority

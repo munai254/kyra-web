@@ -15,7 +15,7 @@ export function Hero() {
 
   return (
     <section
-      className="relative h-[90vh] w-full flex items-center bg-cover bg-center"
+      className="relative h-[90vh] w-full bg-cover bg-center"
       style={{ backgroundImage: "url('/hero-car.jpg')" }}
     >
       {/* Dark overlay */}
