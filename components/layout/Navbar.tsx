@@ -9,7 +9,7 @@ export default function Navbar() {
 
   return (
     <nav className="bg-black text-white relative z-50">
-      <div className="max-w-7xl mx-auto px-4 py-2 md:py-3 flex justify-between items-center">
+      <div className=" mx-auto px-4 py-2 md:py-3 flex justify-between items-center">
 
         {/* LOGO */}
        
