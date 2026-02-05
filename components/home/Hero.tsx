@@ -15,15 +15,14 @@ export function Hero() {
 
   return (
     <section
-      className="relative h-[90vh] w-full bg-cover bg-center"
+      className="relative flex items-center h-[90vh] w-full bg-cover bg-center"
       style={{ backgroundImage: "url('/hero-car.jpg')" }}
     >
       {/* Dark overlay */}
       <div className="absolute inset-0 bg-black/65" />
 
       {/* Content */}
-      <div className="relative flex items-center z-10 max-w-4xl mx-6 md:mx-20 text-white">
-      <div>
+      <div className="relative z-10 max-w-4xl mx-6 md:mx-20 text-white">
         {/* Brand welcome */}
         <p
           className={`uppercase tracking-widest text-sm md:text-base text-blue-400 mb-4
@@ -69,8 +68,6 @@ export function Hero() {
     >
       Available Vehicles
     </button>
-      </div>
-
       </div>
     </section>
   );
