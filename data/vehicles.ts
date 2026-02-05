@@ -29,36 +29,81 @@ export type Vehicle = {
 // ==========================
 
 export const vehicles: Vehicle[] = [
+
   {
-    id: "toyota-land-cruiser-200-series",
-    name: "Toyota Land Cruiser 200 Series",
-    brand: "Toyota",
-    fuel: "Diesel",
-    year: 2017,
-    image: "/vehicles/toyota-land-cruiser-sahara.jpg",
+  id: "MERCEDES-E400",
+  name: "Mercedes-Benz E400",
+  brand: "Mercedes-Benz",
+  fuel: "Petrol",
+  year: 2018,
+  image: "/vehicles/MERCEDES_E400.jpg",
 
-    // ----- View Details content -----
-    description:
-      "A legendary full-size SUV built for luxury, durability, and extreme off-road performance.",
-    engine: "4.5L V8 Twin-Turbo Diesel",
-    transmission: "Automatic",
-    drivetrain: "4WD",
-    mileage: "82,000 km",
+  description:
+    "The Mercedes-Benz E400 delivers refined luxury, intelligent technology, and effortless performance. Designed for executives and comfort-focused drivers, it combines a powerful twin-turbo V6 engine with a premium interior and cutting-edge safety systems.",
 
-    features: [
-      "Leather Interior",
-      "Sunroof",
-      "Multi-Terrain Select",
-      "Cruise Control",
-      "Reverse Camera",
-    ],
+  engine: "3.0L V6 Bi-Turbo",
+  transmission: "9G-TRONIC Automatic",
+  drivetrain: "Rear-Wheel Drive",
 
-    gallery: [
-      "/vehicles/toyota-land-cruiser-sahara.jpg",
-      "/vehicles/toyota-land-cruiser-interior.jpg",
-      "/vehicles/toyota-land-cruiser-rear.jpg",
-    ],
-  },
+  mileage: "62,000 km",
+
+  features: [
+    "Luxury Leather Interior",
+    "Widescreen Digital Cockpit Display",
+    "Ambient Interior Lighting",
+    "Power Adjustable Front Seats with Memory",
+    "Dual-Zone Automatic Climate Control",
+    "Touchscreen Infotainment System",
+    "Apple CarPlay & Android Auto",
+    "Premium Sound System",
+    "Keyless Entry & Push Start",
+    "Adaptive Cruise Control (DISTRONIC)",
+    "Blind Spot Monitoring",
+    "Lane Keep Assist",
+    "Front & Rear Parking Sensors",
+    "Rear View Camera",
+    "LED Intelligent Headlights",
+    "Automatic Emergency Braking"
+  ],
+
+  gallery: [
+    "/vehicles/MERCEDES_E400.jpg",
+    "/vehicles/MERCEDES_E400_front.jpg",
+    "/vehicles/MERCEDES_E400_rear.jpg"
+  ],
+},
+
+  
+  // {
+  //   id: "toyota-land-cruiser-200-series",
+  //   name: "Toyota Land Cruiser 200 Series",
+  //   brand: "Toyota",
+  //   fuel: "Diesel",
+  //   year: 2017,
+  //   image: "/vehicles/toyota-land-cruiser-sahara.jpg",
+
+  //   // ----- View Details content -----
+  //   description:
+  //     "A legendary full-size SUV built for luxury, durability, and extreme off-road performance.",
+  //   engine: "4.5L V8 Twin-Turbo Diesel",
+  //   transmission: "Automatic",
+  //   drivetrain: "4WD",
+  //   mileage: "82,000 km",
+
+  //   features: [
+  //     "Leather Interior",
+  //     "Sunroof",
+  //     "Multi-Terrain Select",
+  //     "Cruise Control",
+  //     "Reverse Camera",
+  //   ],
+
+  //   gallery: [
+  //     "/vehicles/toyota-land-cruiser-sahara.jpg",
+  //     "/vehicles/toyota-land-cruiser-interior.jpg",
+  //     "/vehicles/toyota-land-cruiser-rear.jpg",
+  //   ],
+  // },
 
   {
     id: "audi-a5-s-line",
@@ -133,28 +178,50 @@ export const vehicles: Vehicle[] = [
       "Panoramic Sunroof",
     ],
   },
+{
+  id: "SAHARA-TOYOTA-LAND-CRUISER-200-SERIES",
+  name: "Toyota Land Cruiser 200 Series",
+  brand: "Toyota",
+  fuel: "Diesel",
+  year: 2017,
+  image: "/vehicles/SAHARA.jpg",
 
- /*
-    id: "mercedes-s500-2022",
-    name: "Mercedes S500 - 2022",
-    brand: "Mercedes",
-    fuel: "Petrol",
-    year: 2022,
-    image: "/vehicles/mercedes-s500-2022.jpg",
+  description:
+    "The Toyota Land Cruiser 200 Series is the ultimate full-size SUV built for unmatched durability, powerful performance, and rugged off-road capability. It blends premium comfort with an adventurous spirit — perfect for both city roads and challenging terrain.",
 
-    description:
-      "The pinnacle of luxury sedans — unmatched comfort, innovation, and prestige.",
-    engine: "3.0L Inline-6 Turbo",
-    transmission: "Automatic",
-    drivetrain: "AWD",
+  engine: "4.5L V8 Twin-Turbo Diesel",
+  transmission: "6-Speed Automatic",
+  drivetrain: "Full-Time 4WD",
 
-    features: [
-      "Massage Seats",
-      "Ambient Lighting",
-      "Advanced Driver Assistance",
-      "Executive Rear Seating",
-    ],
-  },*/
+  mileage: "85,000 km",
+
+  features: [
+    "Full-Time 4WD with Torsen Differential",
+    "Multi-Terrain Select",
+    "Crawl Control",
+    "Front & Rear Locking Differential",
+    "Heavy-Duty Bumper & Skid Plates",
+    "Roof Rack & Off-Road Gear Ready",
+    "Premium Leather Interior",
+    "Dual-Zone Automatic Climate Control",
+    "Power Adjustable Heated Seats",
+    "Touchscreen Infotainment System",
+    "Rear View Camera",
+    "Front & Rear Parking Sensors",
+    "LED Headlights & Fog Lamps",
+    "Adaptive Cruise Control",
+    "Blind Spot Monitoring",
+    "Hill Start Assist",
+    "Keyless Entry & Start"
+  ],
+
+  gallery: [
+    "/vehicles/SAHARA.jpg",
+    "/vehicles/SAHARA_front.jpg",
+    "/vehicles/SAHARA_rear.jpg"
+  ],
+},
+
   {
   id: "bently-dynamic-ride",
   name: "Bentley Bentayga Dynamic Ride",
