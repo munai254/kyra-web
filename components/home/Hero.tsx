@@ -22,8 +22,8 @@ export function Hero() {
       <div className="absolute inset-0 bg-black/65" />
 
       {/* Content */}
-      <div className="relative z-10 max-w-4xl mx-6 md:mx-20 text-white">
-        
+      <div className="relative flex items-center z-10 max-w-4xl mx-6 md:mx-20 text-white">
+      <div>
         {/* Brand welcome */}
         <p
           className={`uppercase tracking-widest text-sm md:text-base text-blue-400 mb-4
@@ -69,6 +69,7 @@ export function Hero() {
     >
       Available Vehicles
     </button>
+      </div>
 
       </div>
     </section>

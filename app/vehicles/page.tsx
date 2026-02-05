@@ -6,7 +6,7 @@ export default function VehiclesPage() {
   return (
     <div className="max-w-7xl mx-auto px-6 py-10">
       {/* Page Title */}
-      <h1 className="text-4xl font-bold mb-8 text-white">
+      <h1 className="text-4xl font-bold mb-8 text-black dark:text-white">
         Available Vehicles
       </h1>
 
